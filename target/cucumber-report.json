@@ -1,0 +1,2213 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 4480100400,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I am on the xe landing page",
+            "match": {
+              "location": "stepDefinitions.UI_Automation.navigateToconvertPage()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2024-06-30T18:24:02.667Z",
+        "line": 8,
+        "name": "Verified Convert Module UI",
+        "description": "",
+        "id": "convert-module;verified-convert-module-ui",
+        "after": [
+          {
+            "result": {
+              "duration": 155655200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.UI_Automation.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 58842100,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "Verified the URL page is \"https://www.xe.com/\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"https://www.xe.com/\"",
+                  "offset": 25
+                }
+              ],
+              "location": "stepDefinitions.UI_Automation.validateUrlLink(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 117685700,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I enter \"abc\" in the \"Amount\" field",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"abc\"",
+                  "offset": 8
+                },
+                {
+                  "val": "\"Amount\"",
+                  "offset": 21
+                }
+              ],
+              "location": "stepDefinitions.UI_Automation.enterAmount(java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 373221300,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "Verified convert module UI of the page",
+            "match": {
+              "location": "stepDefinitions.UI_Automation.verifiedConvertUIPage()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@RunAll"
+          },
+          {
+            "name": "@VerifiedUI"
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 3908975900,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I am on the xe landing page",
+            "match": {
+              "location": "stepDefinitions.UI_Automation.navigateToconvertPage()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2024-06-30T18:24:07.912Z",
+        "line": 24,
+        "name": "Convert currency with different currency pairs",
+        "description": "",
+        "id": "convert-module;convert-currency-with-different-currency-pairs;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 123192200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.UI_Automation.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 9974100,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "Verified the URL page is \"https://www.xe.com/\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"https://www.xe.com/\"",
+                  "offset": 25
+                }
+              ],
+              "location": "stepDefinitions.UI_Automation.validateUrlLink(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1402589100,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "I select \"FromCurrency\" and type \"EUR\" to the field",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"FromCurrency\"",
+                  "offset": 9
+                },
+                {
+                  "val": "\"EUR\"",
+                  "offset": 33
+                }
+              ],
+              "location": "stepDefinitions.UI_Automation.selectCurrency(java.lang.String,java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1283123700,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "I select \"ToCurrency\" and type \"USD\" to the field",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"ToCurrency\"",
+                  "offset": 9
+                },
+                {
+                  "val": "\"USD\"",
+                  "offset": 31
+                }
+              ],
+              "location": "stepDefinitions.UI_Automation.selectCurrency(java.lang.String,java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 138959000,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "I enter \"100\" in the \"Amount\" field",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"100\"",
+                  "offset": 8
+                },
+                {
+                  "val": "\"Amount\"",
+                  "offset": 21
+                }
+              ],
+              "location": "stepDefinitions.UI_Automation.enterAmount(java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 155361300,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "I click on the \"Convert\" button",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Convert\"",
+                  "offset": 15
+                }
+              ],
+              "location": "stepDefinitions.UI_Automation.clickButton(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2083955400,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "I should see the converted amount in the \"Result\" field",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Result\"",
+                  "offset": 41
+                }
+              ],
+              "location": "stepDefinitions.UI_Automation.verifyConvertedAmount(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@RunAll"
+          },
+          {
+            "name": "@ConvertCurrency"
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 3560234800,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I am on the xe landing page",
+            "match": {
+              "location": "stepDefinitions.UI_Automation.navigateToconvertPage()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2024-06-30T18:24:17.026Z",
+        "line": 25,
+        "name": "Convert currency with different currency pairs",
+        "description": "",
+        "id": "convert-module;convert-currency-with-different-currency-pairs;;3",
+        "after": [
+          {
+            "result": {
+              "duration": 147667600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.UI_Automation.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 67819100,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "Verified the URL page is \"https://www.xe.com/\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"https://www.xe.com/\"",
+                  "offset": 25
+                }
+              ],
+              "location": "stepDefinitions.UI_Automation.validateUrlLink(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1284649800,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "I select \"FromCurrency\" and type \"USD\" to the field",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"FromCurrency\"",
+                  "offset": 9
+                },
+                {
+                  "val": "\"USD\"",
+                  "offset": 33
+                }
+              ],
+              "location": "stepDefinitions.UI_Automation.selectCurrency(java.lang.String,java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1366025700,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "I select \"ToCurrency\" and type \"GBP\" to the field",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"ToCurrency\"",
+                  "offset": 9
+                },
+                {
+                  "val": "\"GBP\"",
+                  "offset": 31
+                }
+              ],
+              "location": "stepDefinitions.UI_Automation.selectCurrency(java.lang.String,java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 213340900,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "I enter \"100\" in the \"Amount\" field",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"100\"",
+                  "offset": 8
+                },
+                {
+                  "val": "\"Amount\"",
+                  "offset": 21
+                }
+              ],
+              "location": "stepDefinitions.UI_Automation.enterAmount(java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 106244700,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "I click on the \"Convert\" button",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Convert\"",
+                  "offset": 15
+                }
+              ],
+              "location": "stepDefinitions.UI_Automation.clickButton(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2070808200,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "I should see the converted amount in the \"Result\" field",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Result\"",
+                  "offset": 41
+                }
+              ],
+              "location": "stepDefinitions.UI_Automation.verifyConvertedAmount(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@RunAll"
+          },
+          {
+            "name": "@ConvertCurrency"
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 4104883200,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I am on the xe landing page",
+            "match": {
+              "location": "stepDefinitions.UI_Automation.navigateToconvertPage()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2024-06-30T18:24:25.850Z",
+        "line": 26,
+        "name": "Convert currency with different currency pairs",
+        "description": "",
+        "id": "convert-module;convert-currency-with-different-currency-pairs;;4",
+        "after": [
+          {
+            "result": {
+              "duration": 116129700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.UI_Automation.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 67817400,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "Verified the URL page is \"https://www.xe.com/\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"https://www.xe.com/\"",
+                  "offset": 25
+                }
+              ],
+              "location": "stepDefinitions.UI_Automation.validateUrlLink(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1424839700,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "I select \"FromCurrency\" and type \"SGD\" to the field",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"FromCurrency\"",
+                  "offset": 9
+                },
+                {
+                  "val": "\"SGD\"",
+                  "offset": 33
+                }
+              ],
+              "location": "stepDefinitions.UI_Automation.selectCurrency(java.lang.String,java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1243269000,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "I select \"ToCurrency\" and type \"MYR\" to the field",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"ToCurrency\"",
+                  "offset": 9
+                },
+                {
+                  "val": "\"MYR\"",
+                  "offset": 31
+                }
+              ],
+              "location": "stepDefinitions.UI_Automation.selectCurrency(java.lang.String,java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 123669600,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "I enter \"100\" in the \"Amount\" field",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"100\"",
+                  "offset": 8
+                },
+                {
+                  "val": "\"Amount\"",
+                  "offset": 21
+                }
+              ],
+              "location": "stepDefinitions.UI_Automation.enterAmount(java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 156898400,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "I click on the \"Convert\" button",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Convert\"",
+                  "offset": 15
+                }
+              ],
+              "location": "stepDefinitions.UI_Automation.clickButton(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2076045100,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "I should see the converted amount in the \"Result\" field",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Result\"",
+                  "offset": 41
+                }
+              ],
+              "location": "stepDefinitions.UI_Automation.verifyConvertedAmount(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@RunAll"
+          },
+          {
+            "name": "@ConvertCurrency"
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 5510096600,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I am on the xe landing page",
+            "match": {
+              "location": "stepDefinitions.UI_Automation.navigateToconvertPage()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2024-06-30T18:24:35.167Z",
+        "line": 40,
+        "name": "Test invalid amount input on amount field",
+        "description": "",
+        "id": "convert-module;test-invalid-amount-input-on-amount-field;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 113770300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.UI_Automation.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 15957200,
+              "status": "passed"
+            },
+            "line": 31,
+            "name": "Verified the URL page is \"https://www.xe.com/\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"https://www.xe.com/\"",
+                  "offset": 25
+                }
+              ],
+              "location": "stepDefinitions.UI_Automation.validateUrlLink(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1450699000,
+              "status": "passed"
+            },
+            "line": 32,
+            "name": "I select \"FromCurrency\" and type \"SGD\" to the field",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"FromCurrency\"",
+                  "offset": 9
+                },
+                {
+                  "val": "\"SGD\"",
+                  "offset": 33
+                }
+              ],
+              "location": "stepDefinitions.UI_Automation.selectCurrency(java.lang.String,java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1199834100,
+              "status": "passed"
+            },
+            "line": 33,
+            "name": "I select \"ToCurrency\" and type \"MYR\" to the field",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"ToCurrency\"",
+                  "offset": 9
+                },
+                {
+                  "val": "\"MYR\"",
+                  "offset": 31
+                }
+              ],
+              "location": "stepDefinitions.UI_Automation.selectCurrency(java.lang.String,java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 133539800,
+              "status": "passed"
+            },
+            "line": 34,
+            "name": "I enter \"abc\" in the \"Amount\" field",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"abc\"",
+                  "offset": 8
+                },
+                {
+                  "val": "\"Amount\"",
+                  "offset": 21
+                }
+              ],
+              "location": "stepDefinitions.UI_Automation.enterAmount(java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 92750400,
+              "status": "passed"
+            },
+            "line": 35,
+            "name": "I check \"Convert\" button is available or not",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Convert\"",
+                  "offset": 8
+                }
+              ],
+              "location": "stepDefinitions.UI_Automation.verifyButtonStatus(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 82505300,
+              "status": "passed"
+            },
+            "line": 36,
+            "name": "I check the \"error\" message",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"error\"",
+                  "offset": 12
+                }
+              ],
+              "location": "stepDefinitions.UI_Automation.verifyErrorMessage(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@RunAll"
+          },
+          {
+            "name": "@ConvertTestInvalidAmount"
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 3960327200,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I am on the xe landing page",
+            "match": {
+              "location": "stepDefinitions.UI_Automation.navigateToconvertPage()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2024-06-30T18:24:43.769Z",
+        "line": 41,
+        "name": "Test invalid amount input on amount field",
+        "description": "",
+        "id": "convert-module;test-invalid-amount-input-on-amount-field;;3",
+        "after": [
+          {
+            "result": {
+              "duration": 125255900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.UI_Automation.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 65822400,
+              "status": "passed"
+            },
+            "line": 31,
+            "name": "Verified the URL page is \"https://www.xe.com/\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"https://www.xe.com/\"",
+                  "offset": 25
+                }
+              ],
+              "location": "stepDefinitions.UI_Automation.validateUrlLink(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1380286200,
+              "status": "passed"
+            },
+            "line": 32,
+            "name": "I select \"FromCurrency\" and type \"USD\" to the field",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"FromCurrency\"",
+                  "offset": 9
+                },
+                {
+                  "val": "\"USD\"",
+                  "offset": 33
+                }
+              ],
+              "location": "stepDefinitions.UI_Automation.selectCurrency(java.lang.String,java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1243802900,
+              "status": "passed"
+            },
+            "line": 33,
+            "name": "I select \"ToCurrency\" and type \"EUR\" to the field",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"ToCurrency\"",
+                  "offset": 9
+                },
+                {
+                  "val": "\"EUR\"",
+                  "offset": 31
+                }
+              ],
+              "location": "stepDefinitions.UI_Automation.selectCurrency(java.lang.String,java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 92752000,
+              "status": "passed"
+            },
+            "line": 34,
+            "name": "I enter \"-100\" in the \"Amount\" field",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"-100\"",
+                  "offset": 8
+                },
+                {
+                  "val": "\"Amount\"",
+                  "offset": 22
+                }
+              ],
+              "location": "stepDefinitions.UI_Automation.enterAmount(java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 47396600,
+              "status": "passed"
+            },
+            "line": 35,
+            "name": "I check \"Convert\" button is available or not",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Convert\"",
+                  "offset": 8
+                }
+              ],
+              "location": "stepDefinitions.UI_Automation.verifyButtonStatus(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 27184600,
+              "status": "passed"
+            },
+            "line": 36,
+            "name": "I check the \"error\" message",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"error\"",
+                  "offset": 12
+                }
+              ],
+              "location": "stepDefinitions.UI_Automation.verifyErrorMessage(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@RunAll"
+          },
+          {
+            "name": "@ConvertTestInvalidAmount"
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 3263555600,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I am on the xe landing page",
+            "match": {
+              "location": "stepDefinitions.UI_Automation.navigateToconvertPage()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2024-06-30T18:24:50.718Z",
+        "line": 54,
+        "name": "Test Large amount of convert currency",
+        "description": "",
+        "id": "convert-module;test-large-amount-of-convert-currency;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 160477100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.UI_Automation.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 14959800,
+              "status": "passed"
+            },
+            "line": 45,
+            "name": "Verified the URL page is \"https://www.xe.com/\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"https://www.xe.com/\"",
+                  "offset": 25
+                }
+              ],
+              "location": "stepDefinitions.UI_Automation.validateUrlLink(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1388009100,
+              "status": "passed"
+            },
+            "line": 46,
+            "name": "I select \"FromCurrency\" and type \"SGD\" to the field",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"FromCurrency\"",
+                  "offset": 9
+                },
+                {
+                  "val": "\"SGD\"",
+                  "offset": 33
+                }
+              ],
+              "location": "stepDefinitions.UI_Automation.selectCurrency(java.lang.String,java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1330303900,
+              "status": "passed"
+            },
+            "line": 47,
+            "name": "I select \"ToCurrency\" and type \"MYR\" to the field",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"ToCurrency\"",
+                  "offset": 9
+                },
+                {
+                  "val": "\"MYR\"",
+                  "offset": 31
+                }
+              ],
+              "location": "stepDefinitions.UI_Automation.selectCurrency(java.lang.String,java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 106529500,
+              "status": "passed"
+            },
+            "line": 48,
+            "name": "I enter \"100000000000\" in the \"Amount\" field",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"100000000000\"",
+                  "offset": 8
+                },
+                {
+                  "val": "\"Amount\"",
+                  "offset": 30
+                }
+              ],
+              "location": "stepDefinitions.UI_Automation.enterAmount(java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 186493400,
+              "status": "passed"
+            },
+            "line": 49,
+            "name": "I click on the \"Convert\" button",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Convert\"",
+                  "offset": 15
+                }
+              ],
+              "location": "stepDefinitions.UI_Automation.clickButton(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2089085500,
+              "status": "passed"
+            },
+            "line": 50,
+            "name": "I should see the converted amount in the \"Result\" field",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Result\"",
+                  "offset": 41
+                }
+              ],
+              "location": "stepDefinitions.UI_Automation.verifyConvertedAmount(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@RunAll"
+          },
+          {
+            "name": "@ConvertTestLargeAmount"
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 3712010400,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I am on the xe landing page",
+            "match": {
+              "location": "stepDefinitions.UI_Automation.navigateToconvertPage()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2024-06-30T18:24:59.262Z",
+        "line": 55,
+        "name": "Test Large amount of convert currency",
+        "description": "",
+        "id": "convert-module;test-large-amount-of-convert-currency;;3",
+        "after": [
+          {
+            "result": {
+              "duration": 143247500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.UI_Automation.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 10970100,
+              "status": "passed"
+            },
+            "line": 45,
+            "name": "Verified the URL page is \"https://www.xe.com/\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"https://www.xe.com/\"",
+                  "offset": 25
+                }
+              ],
+              "location": "stepDefinitions.UI_Automation.validateUrlLink(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1393774600,
+              "status": "passed"
+            },
+            "line": 46,
+            "name": "I select \"FromCurrency\" and type \"USD\" to the field",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"FromCurrency\"",
+                  "offset": 9
+                },
+                {
+                  "val": "\"USD\"",
+                  "offset": 33
+                }
+              ],
+              "location": "stepDefinitions.UI_Automation.selectCurrency(java.lang.String,java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1257772400,
+              "status": "passed"
+            },
+            "line": 47,
+            "name": "I select \"ToCurrency\" and type \"EUR\" to the field",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"ToCurrency\"",
+                  "offset": 9
+                },
+                {
+                  "val": "\"EUR\"",
+                  "offset": 31
+                }
+              ],
+              "location": "stepDefinitions.UI_Automation.selectCurrency(java.lang.String,java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 103722600,
+              "status": "passed"
+            },
+            "line": 48,
+            "name": "I enter \"100000000000\" in the \"Amount\" field",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"100000000000\"",
+                  "offset": 8
+                },
+                {
+                  "val": "\"Amount\"",
+                  "offset": 30
+                }
+              ],
+              "location": "stepDefinitions.UI_Automation.enterAmount(java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 135638300,
+              "status": "passed"
+            },
+            "line": 49,
+            "name": "I click on the \"Convert\" button",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Convert\"",
+                  "offset": 15
+                }
+              ],
+              "location": "stepDefinitions.UI_Automation.clickButton(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2077945700,
+              "status": "passed"
+            },
+            "line": 50,
+            "name": "I should see the converted amount in the \"Result\" field",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Result\"",
+                  "offset": 41
+                }
+              ],
+              "location": "stepDefinitions.UI_Automation.verifyConvertedAmount(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@RunAll"
+          },
+          {
+            "name": "@ConvertTestLargeAmount"
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 4796944200,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I am on the xe landing page",
+            "match": {
+              "location": "stepDefinitions.UI_Automation.navigateToconvertPage()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2024-06-30T18:25:08.100Z",
+        "line": 69,
+        "name": "Test input behavior if enter more than two decimal number in amount field after dot Example: 12345.5678",
+        "description": "",
+        "id": "convert-module;test-input-behavior-if-enter-more-than-two-decimal-number-in-amount-field-after-dot-example:-12345.5678;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 178056200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.UI_Automation.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 5983400,
+              "status": "passed"
+            },
+            "line": 59,
+            "name": "Verified the URL page is \"https://www.xe.com/\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"https://www.xe.com/\"",
+                  "offset": 25
+                }
+              ],
+              "location": "stepDefinitions.UI_Automation.validateUrlLink(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1735760600,
+              "status": "passed"
+            },
+            "line": 60,
+            "name": "I select \"FromCurrency\" and type \"USD\" to the field",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"FromCurrency\"",
+                  "offset": 9
+                },
+                {
+                  "val": "\"USD\"",
+                  "offset": 33
+                }
+              ],
+              "location": "stepDefinitions.UI_Automation.selectCurrency(java.lang.String,java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1165775700,
+              "status": "passed"
+            },
+            "line": 61,
+            "name": "I select \"ToCurrency\" and type \"MYR\" to the field",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"ToCurrency\"",
+                  "offset": 9
+                },
+                {
+                  "val": "\"MYR\"",
+                  "offset": 31
+                }
+              ],
+              "location": "stepDefinitions.UI_Automation.selectCurrency(java.lang.String,java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 115689900,
+              "status": "passed"
+            },
+            "line": 62,
+            "name": "I enter \"123.450000\" in the \"Amount\" field",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"123.450000\"",
+                  "offset": 8
+                },
+                {
+                  "val": "\"Amount\"",
+                  "offset": 28
+                }
+              ],
+              "location": "stepDefinitions.UI_Automation.enterAmount(java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 78947200,
+              "status": "passed"
+            },
+            "line": 63,
+            "name": "I click on the \"Convert\" button",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Convert\"",
+                  "offset": 15
+                }
+              ],
+              "location": "stepDefinitions.UI_Automation.clickButton(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2072958100,
+              "status": "passed"
+            },
+            "line": 64,
+            "name": "I should see the converted amount in the \"Result\" field",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Result\"",
+                  "offset": 41
+                }
+              ],
+              "location": "stepDefinitions.UI_Automation.verifyConvertedAmount(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 46875100,
+              "status": "passed"
+            },
+            "line": 65,
+            "name": "I check back the \"Amount\" field value for correction value",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Amount\"",
+                  "offset": 17
+                }
+              ],
+              "location": "stepDefinitions.UI_Automation.checkCorrectedAmount(java.lang.String)"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@RunAll"
+          },
+          {
+            "name": "@Convert"
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 3514603900,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I am on the xe landing page",
+            "match": {
+              "location": "stepDefinitions.UI_Automation.navigateToconvertPage()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2024-06-30T18:25:18.301Z",
+        "line": 70,
+        "name": "Test input behavior if enter more than two decimal number in amount field after dot Example: 12345.5678",
+        "description": "",
+        "id": "convert-module;test-input-behavior-if-enter-more-than-two-decimal-number-in-amount-field-after-dot-example:-12345.5678;;3",
+        "after": [
+          {
+            "result": {
+              "duration": 154695200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.UI_Automation.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 10970600,
+              "status": "passed"
+            },
+            "line": 59,
+            "name": "Verified the URL page is \"https://www.xe.com/\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"https://www.xe.com/\"",
+                  "offset": 25
+                }
+              ],
+              "location": "stepDefinitions.UI_Automation.validateUrlLink(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1387904400,
+              "status": "passed"
+            },
+            "line": 60,
+            "name": "I select \"FromCurrency\" and type \"USD\" to the field",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"FromCurrency\"",
+                  "offset": 9
+                },
+                {
+                  "val": "\"USD\"",
+                  "offset": 33
+                }
+              ],
+              "location": "stepDefinitions.UI_Automation.selectCurrency(java.lang.String,java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1252916700,
+              "status": "passed"
+            },
+            "line": 61,
+            "name": "I select \"ToCurrency\" and type \"MYR\" to the field",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"ToCurrency\"",
+                  "offset": 9
+                },
+                {
+                  "val": "\"MYR\"",
+                  "offset": 31
+                }
+              ],
+              "location": "stepDefinitions.UI_Automation.selectCurrency(java.lang.String,java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 101343700,
+              "status": "passed"
+            },
+            "line": 62,
+            "name": "I enter \"123.456789\" in the \"Amount\" field",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"123.456789\"",
+                  "offset": 8
+                },
+                {
+                  "val": "\"Amount\"",
+                  "offset": 28
+                }
+              ],
+              "location": "stepDefinitions.UI_Automation.enterAmount(java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 102253500,
+              "status": "passed"
+            },
+            "line": 63,
+            "name": "I click on the \"Convert\" button",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Convert\"",
+                  "offset": 15
+                }
+              ],
+              "location": "stepDefinitions.UI_Automation.clickButton(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2081225800,
+              "status": "passed"
+            },
+            "line": 64,
+            "name": "I should see the converted amount in the \"Result\" field",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Result\"",
+                  "offset": 41
+                }
+              ],
+              "location": "stepDefinitions.UI_Automation.verifyConvertedAmount(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 32920300,
+              "status": "passed"
+            },
+            "line": 65,
+            "name": "I check back the \"Amount\" field value for correction value",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Amount\"",
+                  "offset": 17
+                }
+              ],
+              "location": "stepDefinitions.UI_Automation.checkCorrectedAmount(java.lang.String)"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@RunAll"
+          },
+          {
+            "name": "@Convert"
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 3583567000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I am on the xe landing page",
+            "match": {
+              "location": "stepDefinitions.UI_Automation.navigateToconvertPage()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2024-06-30T18:25:26.945Z",
+        "line": 83,
+        "name": "Convert currency with same currency pairs",
+        "description": "",
+        "id": "convert-module;convert-currency-with-same-currency-pairs;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 131103100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.UI_Automation.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 15954500,
+              "status": "passed"
+            },
+            "line": 74,
+            "name": "Verified the URL page is \"https://www.xe.com/\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"https://www.xe.com/\"",
+                  "offset": 25
+                }
+              ],
+              "location": "stepDefinitions.UI_Automation.validateUrlLink(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1381507000,
+              "status": "passed"
+            },
+            "line": 75,
+            "name": "I select \"FromCurrency\" and type \"USD\" to the field",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"FromCurrency\"",
+                  "offset": 9
+                },
+                {
+                  "val": "\"USD\"",
+                  "offset": 33
+                }
+              ],
+              "location": "stepDefinitions.UI_Automation.selectCurrency(java.lang.String,java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1258447700,
+              "status": "passed"
+            },
+            "line": 76,
+            "name": "I select \"ToCurrency\" and type \"USD\" to the field",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"ToCurrency\"",
+                  "offset": 9
+                },
+                {
+                  "val": "\"USD\"",
+                  "offset": 31
+                }
+              ],
+              "location": "stepDefinitions.UI_Automation.selectCurrency(java.lang.String,java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 86767000,
+              "status": "passed"
+            },
+            "line": 77,
+            "name": "I enter \"100\" in the \"Amount\" field",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"100\"",
+                  "offset": 8
+                },
+                {
+                  "val": "\"Amount\"",
+                  "offset": 21
+                }
+              ],
+              "location": "stepDefinitions.UI_Automation.enterAmount(java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 102832200,
+              "status": "passed"
+            },
+            "line": 78,
+            "name": "I click on the \"Convert\" button",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Convert\"",
+                  "offset": 15
+                }
+              ],
+              "location": "stepDefinitions.UI_Automation.clickButton(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2061604700,
+              "status": "passed"
+            },
+            "line": 79,
+            "name": "I should see the converted amount in the \"Result\" field",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Result\"",
+                  "offset": 41
+                }
+              ],
+              "location": "stepDefinitions.UI_Automation.verifyConvertedAmount(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@RunAll"
+          },
+          {
+            "name": "@Convert"
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 3547946900,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I am on the xe landing page",
+            "match": {
+              "location": "stepDefinitions.UI_Automation.navigateToconvertPage()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2024-06-30T18:25:35.570Z",
+        "line": 84,
+        "name": "Convert currency with same currency pairs",
+        "description": "",
+        "id": "convert-module;convert-currency-with-same-currency-pairs;;3",
+        "after": [
+          {
+            "result": {
+              "duration": 119572400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.UI_Automation.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 188493100,
+              "status": "passed"
+            },
+            "line": 74,
+            "name": "Verified the URL page is \"https://www.xe.com/\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"https://www.xe.com/\"",
+                  "offset": 25
+                }
+              ],
+              "location": "stepDefinitions.UI_Automation.validateUrlLink(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1770903200,
+              "status": "passed"
+            },
+            "line": 75,
+            "name": "I select \"FromCurrency\" and type \"EUR\" to the field",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"FromCurrency\"",
+                  "offset": 9
+                },
+                {
+                  "val": "\"EUR\"",
+                  "offset": 33
+                }
+              ],
+              "location": "stepDefinitions.UI_Automation.selectCurrency(java.lang.String,java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1271845400,
+              "status": "passed"
+            },
+            "line": 76,
+            "name": "I select \"ToCurrency\" and type \"EUR\" to the field",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"ToCurrency\"",
+                  "offset": 9
+                },
+                {
+                  "val": "\"EUR\"",
+                  "offset": 31
+                }
+              ],
+              "location": "stepDefinitions.UI_Automation.selectCurrency(java.lang.String,java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 100919000,
+              "status": "passed"
+            },
+            "line": 77,
+            "name": "I enter \"100\" in the \"Amount\" field",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"100\"",
+                  "offset": 8
+                },
+                {
+                  "val": "\"Amount\"",
+                  "offset": 21
+                }
+              ],
+              "location": "stepDefinitions.UI_Automation.enterAmount(java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 163742700,
+              "status": "passed"
+            },
+            "line": 78,
+            "name": "I click on the \"Convert\" button",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Convert\"",
+                  "offset": 15
+                }
+              ],
+              "location": "stepDefinitions.UI_Automation.clickButton(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2106417300,
+              "status": "passed"
+            },
+            "line": 79,
+            "name": "I should see the converted amount in the \"Result\" field",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Result\"",
+                  "offset": 41
+                }
+              ],
+              "location": "stepDefinitions.UI_Automation.verifyConvertedAmount(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@RunAll"
+          },
+          {
+            "name": "@Convert"
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 4079802200,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I am on the xe landing page",
+            "match": {
+              "location": "stepDefinitions.UI_Automation.navigateToconvertPage()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2024-06-30T18:25:44.844Z",
+        "line": 85,
+        "name": "Convert currency with same currency pairs",
+        "description": "",
+        "id": "convert-module;convert-currency-with-same-currency-pairs;;4",
+        "after": [
+          {
+            "result": {
+              "duration": 124715400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.UI_Automation.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 68815700,
+              "status": "passed"
+            },
+            "line": 74,
+            "name": "Verified the URL page is \"https://www.xe.com/\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"https://www.xe.com/\"",
+                  "offset": 25
+                }
+              ],
+              "location": "stepDefinitions.UI_Automation.validateUrlLink(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1372684900,
+              "status": "passed"
+            },
+            "line": 75,
+            "name": "I select \"FromCurrency\" and type \"CNY\" to the field",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"FromCurrency\"",
+                  "offset": 9
+                },
+                {
+                  "val": "\"CNY\"",
+                  "offset": 33
+                }
+              ],
+              "location": "stepDefinitions.UI_Automation.selectCurrency(java.lang.String,java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1467707600,
+              "status": "passed"
+            },
+            "line": 76,
+            "name": "I select \"ToCurrency\" and type \"CNY\" to the field",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"ToCurrency\"",
+                  "offset": 9
+                },
+                {
+                  "val": "\"CNY\"",
+                  "offset": 31
+                }
+              ],
+              "location": "stepDefinitions.UI_Automation.selectCurrency(java.lang.String,java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 140635000,
+              "status": "passed"
+            },
+            "line": 77,
+            "name": "I enter \"100\" in the \"Amount\" field",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"100\"",
+                  "offset": 8
+                },
+                {
+                  "val": "\"Amount\"",
+                  "offset": 21
+                }
+              ],
+              "location": "stepDefinitions.UI_Automation.enterAmount(java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 160559100,
+              "status": "passed"
+            },
+            "line": 78,
+            "name": "I click on the \"Convert\" button",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Convert\"",
+                  "offset": 15
+                }
+              ],
+              "location": "stepDefinitions.UI_Automation.clickButton(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2062521500,
+              "status": "passed"
+            },
+            "line": 79,
+            "name": "I should see the converted amount in the \"Result\" field",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Result\"",
+                  "offset": 41
+                }
+              ],
+              "location": "stepDefinitions.UI_Automation.verifyConvertedAmount(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@RunAll"
+          },
+          {
+            "name": "@Convert"
+          }
+        ]
+      }
+    ],
+    "name": "Convert Module",
+    "description": "",
+    "id": "convert-module",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/UI_Automation.feature",
+    "tags": [
+      {
+        "name": "@RunAll",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  }
+]
